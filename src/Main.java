@@ -24,7 +24,7 @@ public class Main {
         System.out.println("House cost is:- " + houseCost);
 
         JsonArray jsonArrayOfPets = fileObject.get("pets").getAsJsonArray();
-        List<Pet> pets = new ArrayList<>();
+        List<Pet> pets = new ArrayList();
         for (JsonElement petElement : jsonArrayOfPets.getAsJsonArray()) {
             //Get the JsonObject:
             JsonObject petJsonObject = petElement.getAsJsonObject();
