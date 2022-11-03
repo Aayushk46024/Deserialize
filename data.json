@@ -1,0 +1,18 @@
+{
+	"address": "E-40, Infostride Technology, Mohali",
+	"cost": 123456.78,
+	"pets": [
+		{
+			"name": "Rex",
+			"color": "Red"
+		},
+		{
+			"name": "Woofy \"BIG\" dog",
+			"color": "White"
+		},
+		{
+			"name": "Bingo",
+			"color": "Brown"
+		}
+	]
+}
